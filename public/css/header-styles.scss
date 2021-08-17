@@ -1,0 +1,63 @@
+
+// @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+// @font-face {
+//     font-family: 'Formula Condensed';
+//     src: url(/assets/FormulaCondensed-Bold.otf);
+// }
+
+
+// $main-yellow: #F5DF4D;
+// $main-black:#000000;
+// $main-red:#FF0909;
+// $main-white:#FFFFFF;
+// $main-font:'Lato', sans-serif;
+// $secondary-font:'Formula Condensed', Arial;
+
+// *{
+//     margin:0;
+//     padding:0;
+//     box-sizing: border-box;
+// }
+
+// body{
+//     background-color: $main-black ;
+//     font-family: 'Lato', sans-serif;
+//     font-size: 16px;
+//     text-transform: uppercase;
+//     color: $main-white;
+// }
+
+// a{
+//     text-decoration: none;
+//     color: $main-white;
+// }
+
+// li{
+//     list-style: none;
+// }
+
+.header{
+    width: 100%;
+    background: transparent;
+    border-bottom: solid 1px $main-white;
+    .header__container{
+        margin:10px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img{
+            width: 100px;
+            transition: 450ms all;
+        }
+        p{
+            transition: 450ms all;
+        }
+    }
+}
+
+.header__container--img:hover{
+    opacity: 0;
+}
+.header__container--text:hover{
+    color: $main-yellow;
+}
